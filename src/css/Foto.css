@@ -1,0 +1,280 @@
+html{
+    font-family: "Roboto", sans-serif;
+}
+.fotoBaro{
+    height: 425px;
+    width: 425px;
+    border-radius: 225px;
+}
+.titulos{
+    margin-left: 420px;
+    font-family: "Roboto", sans-serif;
+   
+}
+.titulo1{
+   
+    margin-left: 380px;
+    font-family: "Roboto", sans-serif;
+    
+}
+.caixa-portifolio{
+   height: 120px;
+   width: 600px;
+}
+.corpo{
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #E3EAEF;
+}
+.titulo{
+text-align: center;
+margin-bottom: 50px;
+}
+
+.caixa1{
+text-align: center;
+    background-color: #C8CCD2;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+   margin-bottom: 70px;
+   position: relative;
+ transition: transform 0.8s;
+   transform-style: preserve-3d;
+}
+.caixa1:hover{
+	transform: rotateY(180deg);
+}
+.front, .back{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    backface-visibility: hidden;
+  }
+  .back{
+    transform: rotateY(180deg);
+  }
+.caixa2{
+    text-align: center;
+        background-color: #C8CCD2;
+        width: 250px;
+        height: 250px;
+        border-radius: 125px;
+        position: relative;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+       }
+       .caixa2:hover{
+           transform: rotateY(180deg);
+       }
+       .front, .back{
+           position: absolute;
+           width: 250px;
+           height: 250px;
+           border-radius: 125px;
+           backface-visibility: hidden;
+         }
+         .back{
+           transform: rotateY(180deg);
+         }
+    /* primeira coluna acima */
+    .caixa3{
+        text-align: center;
+            background-color: #C8CCD2;
+            width: 250px;
+            height: 250px;
+            border-radius: 125px;
+            margin-left: 50px; 
+            position: relative;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+           }
+           .caixa3:hover{
+               transform: rotateY(180deg);
+           }
+           .front, .back{
+               position: absolute;
+               width: 250px;
+               height: 250px;
+               border-radius: 125px;
+               backface-visibility: hidden;
+             }
+             .back{
+               transform: rotateY(180deg);
+             }
+        
+        .foto img{
+           width: 350px;
+           height: 500px;
+           border-radius: 150px ;
+           margin-bottom: 70px;
+        
+           }
+        
+        /* segunda coluna acima  */
+        .caixa4{
+            text-align: center;
+                background-color: #C8CCD2;
+                width: 250px;
+                height: 250px;
+                border-radius: 125px;
+                margin-left: 80px;
+                margin-bottom: 70px;
+                transition: transform 0.8s;
+                transform-style: preserve-3d;
+               }
+               .caixa4:hover{
+                   transform: rotateY(180deg);
+               }
+               .front, .back{
+                   position: absolute;
+                   width: 250px;
+                   height: 250px;
+                   border-radius: 125px;
+                   backface-visibility: hidden;
+                 }
+                 .back{
+                   transform: rotateY(180deg);
+                 }
+            
+            .caixa5{
+                text-align: center;
+                    background-color: #C8CCD2;
+                    width: 250px;
+                    height: 250px;
+                    border-radius: 125px;
+                    margin-left: 80px;
+                    margin-bottom: 70px;
+                    transition: transform 0.8s;
+                    transform-style: preserve-3d;
+                   }
+                   .caixa5:hover{
+                       transform: rotateY(180deg);
+                   }
+                   .front, .back{
+                       position: absolute;
+                       width: 250px;
+                       height: 250px;
+                       border-radius: 125px;
+                       backface-visibility: hidden;
+                     }
+                     .back{
+                       transform: rotateY(180deg);
+                     }
+                /* terceira coluna acima */
+                .segundonivel{
+                  margin-top: 80px;
+                }
+                .q-1 img{
+                  height: 400px;
+                  width: 400px;
+                  border-radius: 30px;
+                }
+                .caixacontato{
+                  width: 420px;
+                  height: 360px;
+                  border-radius: 45px;
+                  background-color:#f2f0f0;
+                  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+              
+                }
+                .contact-left {
+                  flex-basis: 60%;
+                  padding: 40px 60px;
+                }
+                .input-row {
+                  display: flex;
+                  justify-content: space-between;
+                  margin-bottom: 20px;
+                }
+                .input-row .input-group {
+                  flex-basis: 45%;
+                }
+                input {
+                  width: 100%;
+                  border: none;
+                  border-bottom: 1px solid #ccc;
+                  outline: none;
+                  padding-bottom: 5px;
+                }
+                .contact-right {
+                  flex-basis: 60%;
+                  padding: 40px 60px;
+                  
+                  color: #000000;
+                }
+                h1 {
+                  margin-bottom: 10px;
+                  margin-left: 5%;
+                }
+                .batata p {
+                  margin-bottom: 40px;
+                  margin-left: 5%;
+                }
+                .input-row {
+                  display: flex;
+                  justify-content: space-between;
+                  margin-bottom: 20px;
+                }
+                .input-row .input-group {
+                  flex-basis: 45%;
+                }
+                input {
+                  width: 100%;
+                  border: none;
+                  border-bottom: 1px solid #ccc;
+                  outline: none;
+                  padding-bottom: 5px;
+                }
+                textarea {
+                  width: 100%;
+                  border: 1px solid #ccc;
+                  outline: none;
+                  padding: 10px;
+                  box-sizing: border-box;
+                  background-color: whitesmoke;
+                }
+                label {
+                  margin-bottom: 6px;
+                  display: block;
+                }
+                .batata button {
+                 
+                  width: 100px;
+                  border: none;
+                  outline: none;
+                  color: #fff;
+                  height: 35px;
+                  margin-top: 20px;
+                  box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+                }
+                .batata button:hover {
+                  letter-spacing: 2px;
+                  opacity: 0.8;
+                }
+                .contact-left H3 {
+                 
+                  font-weight: 600;
+                  margin-bottom: 30px;
+                }
+                tr td:first-child {
+                  padding-right: 20px;
+                }
+                tr td {
+                  padding-top: 10px;
+                  display: flex;
+                }
+                .contact-right table {
+                  width: 100%;
+                }
+                .popo{
+                  position: flex;          
+                }
+                .popo button{
+                  position: fixed;
+              padding: 5px;
+              bottom: 5px;
+              border: none;
+              background-color: #fff;
+              border-radius: 5px;
+                }
